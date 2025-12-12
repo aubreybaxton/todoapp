@@ -1,5 +1,4 @@
 //jshint esversion:6
-
 const express = require("express");
 
 const date = require(__dirname + "/date.js");
@@ -117,7 +116,6 @@ app.post("/delete", function (req, res) {
         res.redirect("/" + listName);
     }
 });
-
 
 
 //------------END--------- GET and POST method for the home route---------------------
